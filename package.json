@@ -1,0 +1,42 @@
+{
+  "name": "tours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maptiler/sdk": "^1.1.2",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.8.1",
+    "handlebars": "^4.7.8",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.1",
+    "mailtrap": "^3.1.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.9.4",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2",
+    "sharp": "^0.32.5",
+    "stripe": "^7.63.1",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/stripe": "^8.0.417",
+    "parcel-bundler": "^1.12.5"
+  }
+}
